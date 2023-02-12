@@ -1,11 +1,30 @@
+*{
+    margin: 0;
+}
+header, h2, h3, p{
+    margin: auto;
+}
 header{
     background-color: #F2DFD7;
+    
 }
 h2{
     background-color: #D4C1EC;
     color: #736CED;
+    margin: auto;
 }
 h3{
     background-color: #D4C1EC;
     color: #736CED;
+    margin: auto;
 }
+body, .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+body{
+    max-width: 900px;
+}
+
+
